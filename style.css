@@ -1,0 +1,8 @@
+html {
+  --s: 250px; 
+  --_g: radial-gradient(#064789 80%,#A5BE00 7%);
+  background:
+    var(--_g),var(--_g) calc(var(--s)/2) calc(var(--s)/2),
+    conic-gradient(#0f9177 25%,#fdebad 0 50%,#FFA69E 0 75%,#b5d999 0);
+  background-size: var(--s) var(--s); 
+}
